@@ -6,14 +6,14 @@ from setuptools import setup, find_packages
 
 def reads(fname):
     try:
-        return open(os.path.join(os.path.dirname(__file__), fname)).read()
+        return open(os.path.join(os.path.dirname(__file__), fname), encoding='utf8').read()
     except IOError:
         return ''
 
 
 setup(
     name='heconvert',
-    version='0.1.2',
+    version='1.0.0',
     description='simple converter that converts hangul to english and vise versa',
     long_description=reads('README.rst'),
     license=reads('LICENSE'),
