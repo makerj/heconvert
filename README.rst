@@ -34,11 +34,11 @@ Use heconvert
 
 #) English --> Hangul: ::
 
-    from heconv.converter import h2e
+    from heconv.converter import e2h
 
     e2h('tkfkdgkqslek')  # return '사랑합니다'
 
-# Continuous Converting: ::
+#) Continuous Converting: ::
 
     from heconv.converter import HangulToEnglishConverter, EnglishToHangulConverter
 
