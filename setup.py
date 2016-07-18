@@ -14,7 +14,7 @@ def reads(fname):
 setup(
     name='heconvert',
     version='0.1.2',
-    description='tiny django app for supporting markdown template tag',
+    description='simple converter that converts hangul to english and vise versa',
     long_description=reads('README.rst'),
     license=reads('LICENSE'),
 
