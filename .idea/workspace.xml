@@ -20,7 +20,7 @@
     <SUITE FILE_PATH="coverage/heconv$Unittests_in_Test__1_.coverage" NAME="Unittests in Test (1) Coverage Results" MODIFIED="1468787034318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/heconv$Unittests_in_tests.coverage" NAME="Unittests in tests Coverage Results" MODIFIED="1468864626404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/heconv$Unittest_Test_h2e_test.coverage" NAME="Unittest Test.h2e_test Coverage Results" MODIFIED="1468775091142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/heconv$Unittest_Test_all_test.coverage" NAME="Unittest Test.ksx5002_all_test Coverage Results" MODIFIED="1468872411188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/heconv$Unittest_Test_all_test.coverage" NAME="Unittest Test.ksx5002_all_test Coverage Results" MODIFIED="1468875007224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/heconv$Unittest_Test_e2h_test__1_.coverage" NAME="Unittest Test.e2h_test (1) Coverage Results" MODIFIED="1468786966872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/heconv$Unittest_Test_x_test.coverage" NAME="Unittest Test.x_test Coverage Results" MODIFIED="1468868506183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/heconv$Unittest_Test_e2h_test.coverage" NAME="Unittest Test.e2h_test Coverage Results" MODIFIED="1468786956636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -45,8 +45,8 @@
       <file leaf-file-name="converter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/heconvert/converter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+            <state relative-caret-position="142">
+              <caret line="41" column="30" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -56,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/test/tests.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="430">
-              <caret line="136" column="34" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="34" />
+              <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
               <folding>
                 <element signature="e#0#27#0" expanded="true" />
               </folding>
@@ -64,14 +64,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="core.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heconvert/core.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
+            <state relative-caret-position="484">
               <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
                 <element signature="e#28#37#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.rst" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/heconvert/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -123,9 +153,13 @@
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/heconv/keyboard/ksx5002/mapping.py" />
         <option value="$PROJECT_DIR$/tt.txt" />
-        <option value="$PROJECT_DIR$/test/tests.py" />
         <option value="$PROJECT_DIR$/heconv/keyboard/ksx5002/core.py" />
         <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/heconvert/converter.py" />
+        <option value="$PROJECT_DIR$/heconvert/core.py" />
+        <option value="$PROJECT_DIR$/README.rst" />
+        <option value="$PROJECT_DIR$/test/tests.py" />
       </list>
     </option>
   </component>
@@ -613,34 +647,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_Test_ksx5002_all_test - 2016.07.19 at 04h 22m 28s.xml">
+    <history-entry file="Unittest_Test_ksx5002_all_test - 2016.07.19 at 05h 26m 10s.xml">
       <configuration name="Unittest Test.ksx5002_all_test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Test_ksx5002_all_test - 2016.07.19 at 04h 23m 43s.xml">
+    <history-entry file="Unittest_Test_ksx5002_all_test - 2016.07.19 at 05h 27m 26s.xml">
       <configuration name="Unittest Test.ksx5002_all_test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Test_ksx5002_all_test - 2016.07.19 at 04h 29m 15s.xml">
+    <history-entry file="Unittest_Test_ksx5002_all_test - 2016.07.19 at 05h 30m 39s.xml">
       <configuration name="Unittest Test.ksx5002_all_test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Test_ksx5002_all_test - 2016.07.19 at 04h 29m 32s.xml">
+    <history-entry file="Unittest_Test_ksx5002_all_test - 2016.07.19 at 05h 30m 59s.xml">
       <configuration name="Unittest Test.ksx5002_all_test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Test_ksx5002_all_test - 2016.07.19 at 04h 30m 04s.xml">
+    <history-entry file="Unittest_Test_ksx5002_all_test - 2016.07.19 at 05h 31m 07s.xml">
       <configuration name="Unittest Test.ksx5002_all_test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Test_ksx5002_all_test - 2016.07.19 at 04h 30m 10s.xml">
+    <history-entry file="Unittest_Test_ksx5002_all_test - 2016.07.19 at 05h 49m 09s.xml">
       <configuration name="Unittest Test.ksx5002_all_test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Test_ksx5002_all_test - 2016.07.19 at 04h 30m 14s.xml">
+    <history-entry file="Unittest_Test_ksx5002_all_test - 2016.07.19 at 05h 49m 21s.xml">
       <configuration name="Unittest Test.ksx5002_all_test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Test_ksx5002_all_test - 2016.07.19 at 04h 32m 06s.xml">
+    <history-entry file="Unittest_Test_ksx5002_all_test - 2016.07.19 at 05h 49m 41s.xml">
       <configuration name="Unittest Test.ksx5002_all_test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Test_ksx5002_all_test - 2016.07.19 at 04h 32m 14s.xml">
+    <history-entry file="Unittest_Test_ksx5002_all_test - 2016.07.19 at 05h 49m 46s.xml">
       <configuration name="Unittest Test.ksx5002_all_test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_Test_ksx5002_all_test - 2016.07.19 at 05h 06m 51s.xml">
+    <history-entry file="Unittest_Test_ksx5002_all_test - 2016.07.19 at 05h 50m 07s.xml">
       <configuration name="Unittest Test.ksx5002_all_test" configurationId="tests" />
     </history-entry>
   </component>
@@ -737,14 +771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -869,14 +895,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/heconvert/core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tt.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -889,14 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/heconvert/converter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -914,27 +924,7 @@
         <state relative-caret-position="76">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="136" column="34" selection-start-line="136" selection-start-column="34" selection-end-line="136" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#52#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -949,13 +939,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
+        <state relative-caret-position="484">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
             <element signature="e#28#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heconvert/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heconvert/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/heconvert/converter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

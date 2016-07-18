@@ -39,7 +39,7 @@ def e2h(string):
     return KEYBOARD.e2h(string)
 
 
-class HangulToEnglishBuilder(heconvert.core.StatefulConvertBuilder):
+class HangulToEnglishConverter(heconvert.core.Converter):
     """
     Stateful convert builder (Hangul -> English)
     """
@@ -49,7 +49,7 @@ class HangulToEnglishBuilder(heconvert.core.StatefulConvertBuilder):
         super().__init__(keyboard.h2e, initial_value)
 
 
-class EnglishToHangulBuilder(heconvert.core.StatefulConvertBuilder):
+class EnglishToHangulConverter(heconvert.core.Converter):
     """
     Stateful convert builder (English -> Hangul)
     """

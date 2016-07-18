@@ -21,21 +21,19 @@ def select_keyboard(keyboard_layout_name='ksx5002'):
     return keyboard_interface.KEYBOARD
 
 
-class StatefulConvertBuilder(object):
+class Converter(object):
     def __init__(self, convert_func, initial_value=None):
         if initial_value and not isinstance(initial_value, str):
             raise TypeError('type of initial_value is must be str')
-        self.value = list(initial_value)
+        self.value = list(initial_value) if initial_value else []
         self.convert_func = convert_func
 
-    def update(self, val):
+    def update(self, val, convert=True):
         self.value.append(val)
+        if convert:
+            return self.convert()
 
-    def build(self):
-        return self.convert_func(''.join(self.value))
-
-    def update_and_build(self, val):
-        self.update(val)
+    def convert(self):
         return self.convert_func(''.join(self.value))
 
     def reset(self):

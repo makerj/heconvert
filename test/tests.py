@@ -81,6 +81,11 @@ class Test(TestCase):
             하루 하루가...
             누군가에게 소중한 만남이고 싶다.....""")))
 
+        h2e_builder = HangulToEnglishConverter()
+        h2e_builder.update('서해번쩍')
+        self.assertEqual('tjgoqjsWjr', h2e_builder.convert())
+        self.assertEqual('tjgoqjsWjrehdgoqjsWjr', h2e_builder.update('동해번쩍', True))
+
         # e2h test
         self.assertEqual('10을 2로 나눈 몫은 5이다', e2h('10dmf 2fh sksns ahrtdms 5dlek'))
         self.assertEqual('비행기가 날아간다 쓩~', e2h('qlgodrlrk skfdkrksek Tbd~'))
@@ -153,3 +158,8 @@ class Test(TestCase):
 
         gkfn gkfnrk...
         snrnsrkdprp thwndgks aksskadlrh tlvek.....""")))
+
+        e2h_builder = EnglishToHangulConverter()
+        e2h_builder.update('ehdgoqjsWjr')
+        self.assertEqual('동해번쩍', e2h_builder.convert())
+        self.assertEqual('동해번쩍서해번쩍', e2h_builder.update('tjgoqjsWjr', True))

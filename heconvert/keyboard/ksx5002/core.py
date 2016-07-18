@@ -15,7 +15,7 @@ limitations under the License.
 """
 from enum import Enum
 
-from heconvert.core import select_keyboard, StatefulConvertBuilder
+from heconvert.core import select_keyboard, Converter
 from heconvert.keyboard.ksx5002.mapping import JA_LEAD, MO, JA_TAIL, JA, H2E_MAPPING, E2H_MAPPING, JAMO_COMPOSE_TABLE
 
 
@@ -129,7 +129,7 @@ def e2h(string):
     return ''.join(ctx.output)
 
 
-class HangulToEnglishBuilder(StatefulConvertBuilder):
+class HangulToEnglishBuilder(Converter):
     """
     Stateful convert builder (Hangul -> English)
     """
@@ -139,7 +139,7 @@ class HangulToEnglishBuilder(StatefulConvertBuilder):
         super().__init__(keyboard.h2e, initial_value)
 
 
-class EnglishToHangulBuilder(StatefulConvertBuilder):
+class EnglishToHangulBuilder(Converter):
     """
     Stateful convert builder (English -> Hangul)
     """
