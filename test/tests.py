@@ -4,8 +4,8 @@ from unittest import TestCase
 from heconvert.converter import *
 
 
-class Test(TestCase):
-    def ksx5002_all_test(self):
+class TestKSX5002(TestCase):
+    def test_all(self):
         # h2e test
         self.assertEqual('rsef', h2e('ㄱㄴㄷㄹ'))
         self.assertEqual('kiju', h2e('ㅏㅑㅓㅕ'))
