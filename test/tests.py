@@ -1,4 +1,5 @@
 from textwrap import dedent
+import unittest
 from unittest import TestCase
 
 from heconvert.converter import *
@@ -163,3 +164,6 @@ class TestKSX5002(TestCase):
         e2h_builder.update('ehdgoqjsWjr')
         self.assertEqual('동해번쩍', e2h_builder.convert())
         self.assertEqual('동해번쩍서해번쩍', e2h_builder.update('tjgoqjsWjr', True))
+
+if __name__ == '__main__':
+    unittest.main()
