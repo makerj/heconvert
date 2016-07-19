@@ -1,6 +1,10 @@
 heconvert
 #########
 
+.. image:: https://travis-ci.org/makerj/heconvert.svg?branch=master
+    :target: https://travis-ci.org/makerj/heconvert
+    :alt: Build Status
+    
 .. _description:
 
 **heconvert** is simple converter that convert hangul to english and vise-versa
