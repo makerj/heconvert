@@ -1,11 +1,12 @@
 from textwrap import dedent
+import unittest
 from unittest import TestCase
 
 from heconvert.converter import *
 
 
-class Test(TestCase):
-    def ksx5002_all_test(self):
+class TestKSX5002(TestCase):
+    def test_all(self):
         # h2e test
         self.assertEqual('rsef', h2e('ㄱㄴㄷㄹ'))
         self.assertEqual('kiju', h2e('ㅏㅑㅓㅕ'))
@@ -163,3 +164,6 @@ class Test(TestCase):
         e2h_builder.update('ehdgoqjsWjr')
         self.assertEqual('동해번쩍', e2h_builder.convert())
         self.assertEqual('동해번쩍서해번쩍', e2h_builder.update('tjgoqjsWjr', True))
+
+if __name__ == '__main__':
+    unittest.main()
