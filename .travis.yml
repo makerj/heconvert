@@ -8,4 +8,4 @@ python:
 install:
   - python setup.py -q install
 # command to run tests
-script: python test/tests
+script: python test/tests.py
