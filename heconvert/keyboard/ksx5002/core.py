@@ -129,26 +129,6 @@ def e2h(string):
     return ''.join(ctx.output)
 
 
-class HangulToEnglishBuilder(Converter):
-    """
-    Stateful convert builder (Hangul -> English)
-    """
-
-    def __init__(self, initial_value=None, keyboard='ksx5002'):
-        keyboard = select_keyboard(keyboard)
-        super().__init__(keyboard.h2e, initial_value)
-
-
-class EnglishToHangulBuilder(Converter):
-    """
-    Stateful convert builder (English -> Hangul)
-    """
-
-    def __init__(self, initial_value=None, keyboard='ksx5002'):
-        keyboard = select_keyboard(keyboard)
-        super().__init__(keyboard.e2h, initial_value)
-
-
 def compose(lead, medi, tail=None):
     """
     Compose hangul using given consonant and vowel
