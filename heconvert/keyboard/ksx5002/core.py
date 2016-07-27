@@ -54,8 +54,7 @@ def e2h(string):
     :return: converted hangul string
     """
     ctx = Context(string)
-    while ctx.input:
-        char = ctx.input.pop(0)  # raw input
+    for char in ctx.input:
         if not char.isalpha():
             ctx.do_final()
             ctx.output.append(char)
