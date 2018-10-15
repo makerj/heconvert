@@ -38,13 +38,13 @@ Use heconvert
 
 #) English --> Hangul: ::
 
-    from heconv.converter import e2h
+    from heconvert.converter import e2h
 
     e2h('tkfkdgkqslek')  # return '사랑합니다'
 
 #) Continuous Converting: ::
 
-    from heconv.converter import HangulToEnglishConverter, EnglishToHangulConverter
+    from heconvert.converter import HangulToEnglishConverter, EnglishToHangulConverter
 
     # Hangul --> English
     h2e_builder = HangulToEnglishConverter()
