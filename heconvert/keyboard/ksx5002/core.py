@@ -128,7 +128,7 @@ def e2h(string):
     return ''.join(ctx.output)
 
 
-def compose(lead, medi, tail=None):
+def compose(lead, medi, tail=0):
     """
     Compose hangul using given consonant and vowel
     :param lead:  lead consonant
@@ -136,11 +136,19 @@ def compose(lead, medi, tail=None):
     :param tail: tail consonant if any
     :return: composed hangul character
     """
+    tail_remainder = None
+
     lead = JA_LEAD.index(lead) * 588
     medi = MO.index(medi) * 28
-    tail = JA_TAIL.index(tail) if tail else 0
+    if tail:
+        try:
+            tail = JA_TAIL.index(tail)
+        except ValueError:
+            tail_remainder = tail
+            tail = 0
+
     ccode = lead + medi + tail + 0xAC00
-    return chr(ccode)
+    return [chr(ccode)] if not tail_remainder else [chr(ccode), tail_remainder]
 
 
 class State(Enum):
@@ -168,5 +176,5 @@ class Context(object):
         if len(self.pending) < 2:
             return self.flush()
 
-        self.output.append(compose(*self.pending))
+        self.output += compose(*self.pending)
         self.pending.clear()
