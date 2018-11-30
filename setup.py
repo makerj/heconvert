@@ -13,7 +13,7 @@ def reads(fname):
 
 setup(
     name='heconvert',
-    version='1.0.0',
+    version='1.0.1',
     description='simple converter that converts hangul to english and vise versa',
     long_description=reads('README.rst'),
     license=reads('LICENSE'),
