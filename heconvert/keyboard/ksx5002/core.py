@@ -55,12 +55,13 @@ def e2h(string):
     """
     ctx = Context(string)
     for char in ctx.input:
-        if not char.isalpha():
+        hchar = E2H_MAPPING.get(char)
+
+        if not char.isalpha() or not hchar:
             ctx.do_final()
             ctx.output.append(char)
             ctx.state = State.INIT
             continue
-        hchar = E2H_MAPPING[char]  # hangul character
 
         if ctx.state is State.INIT:
             if hchar not in JA_LEAD:
